@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <t t-name="One2ManySearch">
+        <t t-if="widget.formatType === 'one2many'">
+            <div>
+                <div style="/* justify-content: space-between; *//* width: 100%; */padding: 20px;" class="row">
+                    <input type="text" class="oe_search_value searchInput pl-3" placeholder="Search..."
+                           style="margin-bottom:10px;height:30px;border-radius: 15px;width: 24%;margin-right: auto;"/>
+                    <button type="button" class="revert_recoil btn btn-secondary fa fa-undo"
+                            style="/* margin-bottom: 10px; *//* height: 30px; */border-radius: 15px;margin-left: auto;  display:none;">
+                        Revert reconciliation
+                    </button>
+                </div>
+            </div>
+        </t>
+    </t>
+</templates>
